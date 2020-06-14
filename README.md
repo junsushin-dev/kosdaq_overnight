@@ -4,7 +4,7 @@
 
 For people who prefer reading in english, please use the link below to see my comprehensive report!
 
-[PDF링크](docs/KOSDAQ_Overnight_Project Report.pdf)
+[Link to Report](docs/KOSDAQ_Overnight_ProjectReport.pdf)
 
 ## 1. Overnight 전략이란?
 
@@ -12,7 +12,14 @@ For people who prefer reading in english, please use the link below to see my co
 
 이런걸로 돈을 벌 수 있다고? 라는 생각이 드실텐데, 과거 기간 데이터에 테스트 시에는 수익률이 좋은 전략입니다.
 
+<KODEX 코스닥 150 ETF>
 
+![수익률 그래프](resources/graph_pf_value_kodaq150.png)
+- 기간: 2015.09월 - 2019.03월
+- 누적 수익률: 103.19%
+- 연간 수익률: 22.56%
+- 파란색 그래프: ETF의 시세
+- 주황색 그래프: Overnight 전략 포트폴리오 가치
 
 믿기지 않으신다면 아래 링크를 참조해서 어떻게 테스트를 했는지 살펴보세요. 지금도 먹히는 전략일지는 개개인의 판단에 맡깁니다. (저한테 와서 돈 물어달라고 하지 마세요!)
 
@@ -32,11 +39,12 @@ For people who prefer reading in english, please use the link below to see my co
 
 API를 호출하는 Python 코드는 Github에 공개되어 있습니다.
 
-Module Documentation [링크]
+[Module Documentation](docs/modules.md)
 
-자세한 Step by Step이 궁금하다면? [링크]
+자세한 Step by Step이 궁금하다면?
 
+[AWS 서버 구축하기](docs/implementation.md)
 
 ## 3. 제작 비하인드 Story
 
-왜 이런 걸 만들었는지 궁금하다면
+TBD
