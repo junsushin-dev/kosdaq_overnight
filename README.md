@@ -1,6 +1,6 @@
 # kosdaq_overnight
 
-주식 매매전략 중 Overnight 매매전략을 자동으로 수행하는 서버를 구축하는 프로젝트입니다. AWS, CreonPlus API, Python을 사용합니다.
+주식 매매전략 중 Overnight 매매전략을 자동으로 수행하는 시스템를 구축하는 프로젝트입니다. AWS, CreonPlus API, Python을 사용합니다.
 
 For people who prefer reading in english, please use the link below to see my comprehensive report!
 
@@ -27,24 +27,24 @@ For people who prefer reading in english, please use the link below to see my co
 
 ## 2. 자동 트레이딩 시스템 구현
 
-전략이 유효하다면 한번 직접 실행해봐야겠죠! 와 이거 완전 돈놓고 돈먹기 아닙니까? 하지만 직접 매일 개장시간과 폐장시간에 증권사 MTS(Mobile Trading System)에 접속해서 주문을 거실 건가요? 진정한 자본가라면 손하나 까딱하지 않아도 수익이 나오는 꿈을 꾸며 자동 매매 시스템을 구축해야 합니다.
+전략이 유효하다면 한번 직접 실행해봐야겠죠! 하지만 직접 매일 개장시간과 폐장시간에 증권사 MTS(Mobile Trading System)에 접속해서 주문을 거실 건가요? 진정한 자본가라면 손하나 까딱하지 않아도 수익이 나오는 꿈을 꾸며 자동 매매 시스템을 구축해야 합니다.
 
 매매 시스템은 이렇게 구성되어 있습니다.
-- AWS(Amazon Web Service)를 이용해서 가상 서버 컴퓨터를 구동
-- 대신증권 HTS 및 Creon API를 가상 서버 컴퓨터에 설치
-- Python을 이용하여 매수, 매도, 기록을 자동화
+- AWS(Amazon Web Service)를 이용해서 가상 컴퓨터를 구동
+- 대신증권 HTS 및 Creon API를 가상 컴퓨터에 설치
+- Python을 이용하여 로그인, 매수, 매도를 자동화
 - Microsoft 작업 스케쥴러를 이용해서 작업신호 보내기
 - ????
 - PROFIT!
 
-API를 호출하는 Python 코드는 Github에 공개되어 있습니다.
+Creon API를 호출하는 Python 코드는 Github에 공개되어 있습니다.
 
 [Module Documentation](docs/modules.md)
 
-자세한 Step by Step이 궁금하다면?
+AWS에서 가상 컴퓨터를 세팅한 방법이 궁금하다면?
 
-[AWS 서버 구축하기](docs/implementation.md)
+[AWS로 매매 시스템 구축하기](docs/implementation.md)
 
-## 3. 제작 비하인드 Story
+## 3. [Behind Story & 후기](docs/story.md)
 
-TBD
+![Story](https://pbs.twimg.com/media/DgTAVG5VQAABLcR.jpg)
