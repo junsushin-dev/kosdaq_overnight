@@ -37,7 +37,7 @@ For people who prefer reading in english, please use the link below to see my co
 - ????
 - PROFIT!
 
-Creon API를 호출하는 Python 코드는 Github에 공개되어 있습니다.
+Creon API를 호출하는데 사용한 Python 코드는 이 Github에 공개되어 있습니다.
 
 [Module Documentation](docs/modules.md)
 
