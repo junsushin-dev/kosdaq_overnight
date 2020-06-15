@@ -47,4 +47,4 @@ AWS에서 가상 컴퓨터를 세팅한 방법이 궁금하다면?
 
 ## 3. [Behind Story & 후기](docs/story.md)
 
-![Story](https://pbs.twimg.com/media/DgTAVG5VQAABLcR.jpg)
+<img src="https://pbs.twimg.com/media/DgTAVG5VQAABLcR.jpg" alt="drawing" width="200"/>
