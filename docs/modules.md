@@ -20,7 +20,7 @@ Windows 작업스케쥴러에 장 마감 직전 시간을 실행 트리거로 �
 
 ## buy_close.py
 
-### 1. function buy_available_amount
+### 1. function -  buy_available_amount
 - Input: none
 - Output: none
 - Actions:
