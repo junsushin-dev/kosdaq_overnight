@@ -20,9 +20,18 @@ Windows 작업스케쥴러에 장 마감 직전 시간을 실행 트리거로 �
 
 ## buy_close.py
 
-### 1. Class A
-#### 1-1. function a
-#### 1-2. function b
+### 1. function buy_available_amount
+- Input: none
+- Output: none
+- Actions:
+  - Creon API 연결여부 체크
+  - Creon API 주문 초기화
+  - 주문가능수량 체크
+  - 지정된 종목에 대해 시장가 매수주문
+
+~~~
+buy_available_amount()
+~~~
 
 ### 2. Class B
 #### 1-1. function a
