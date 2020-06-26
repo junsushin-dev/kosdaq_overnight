@@ -24,10 +24,10 @@
 
 ## 2. 과거 데이터 테스트 결과 소개
 
-위 논문과 이론에 착안해서 개인적으로 개인 투자자의 참여가 상대적으로 활발한 코스닥 시장과 기업가치 산정이 상대적으로 어려운 헬스케어(바이오) 섹터에 대해서 Overnight Return 이 관측될 것이라는 예상을 하고 해당 종목의 지수 ETF에 대해서 과거 데이터로 백테스팅을 해보았습니다.  
+위 논문과 이론에 착안해서 개인적으로 개인 투자자의 참여가 상대적으로 활발한 코스닥 시장과 기업가치 산정이 상대적으로 어려운 헬스케어(바이오) 섹터에 대해서 Overnight Return 이 관측될 것이라는 예상을 하고 해당 종목의 지수 ETF에 대해서 과거 데이터로 백테스팅을 해보았습니다.
 
 <KODEX 코스닥 150 ETF>
-![코스닥 수익률 그래프](../resources/graph_pf_value_kodaq150.png)
+![코스닥 수익률 그래프](../resources/graph_pf_value_kosdaq150.png)
 
 <TIGER 헬스케어 ETF>
 ![헬스케어 수익률 그래프](../resources/graph_pf_value_tigerhealthcare.png)
