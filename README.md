@@ -14,7 +14,7 @@ For people who prefer reading in english, please use the link below to see my co
 
 <KODEX 코스닥 150 ETF>
 
-![수익률 그래프](resources/graph_pf_value_kosdaq150.png)
+![수익률 그래프](resources/strategy/graph_pf_value_kosdaq150.png)
 - 기간: 2015.09월 - 2019.03월
 - 누적 수익률: 103.19%
 - 연간 수익률: 22.56%
