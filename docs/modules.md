@@ -53,6 +53,6 @@ buy_available_amount()
 - 현재 보유수량 전량 시장가 매도주문
 - 자동로그인 모듈 호출 -> 로그아웃 수행
 
-![example_sell_9am](../resources/sell_9am.png)
+![example_sell_9am](../resources/modules/sell_9am.png)
 
 ## sell_open.py

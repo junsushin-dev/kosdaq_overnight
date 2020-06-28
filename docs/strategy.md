@@ -27,10 +27,10 @@
 위 논문과 이론에 착안해서 개인적으로 개인 투자자의 참여가 상대적으로 활발한 코스닥 시장과 기업가치 산정이 상대적으로 어려운 헬스케어(바이오) 섹터에 대해서 Overnight Return 이 관측될 것이라는 예상을 하고 해당 종목의 지수 ETF에 대해서 과거 데이터로 백테스팅을 해보았습니다.
 
 <KODEX 코스닥 150 ETF>
-![코스닥 수익률 그래프](../resources/graph_pf_value_kosdaq150.png)
+![코스닥 수익률 그래프](../resources/strategy/graph_pf_value_kosdaq150.png)
 
 <TIGER 헬스케어 ETF>
-![헬스케어 수익률 그래프](../resources/graph_pf_value_tigerhealthcare.png)
+![헬스케어 수익률 그래프](../resources/strategy/graph_pf_value_tigerhealthcare.png)
 
 파란색 그래프가 기초자산(원본 ETF)의 가격 추이, 오렌지색 그래프가 Overnight 전략을 사용한 것을 가정했을 때의 포트폴리오 가치입니다. 기초자산은 최초 시점부터 구매 후 보유, Overnight 전략은 매일 가진 돈의 전부를 매수하고 가진 주식 전부를 매도한다고 가정한 결과입니다.
 
