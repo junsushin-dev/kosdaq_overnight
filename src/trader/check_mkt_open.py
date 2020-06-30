@@ -3,6 +3,7 @@ import win32com.client
 import datetime
 
 holidays_2019 = [20190101, 20190204, 20190205, 20190206, 20190301, 20190501, 20190506, 20190606, 20190815, 20190912, 20190913, 20191003, 20191009, 20191225, 20191231]
+holidays_2020 = [20200101, 20200124, 20200125, 20200126, 20200127, 20200301, 20200415, 20200430, 20200505, 20200606, 20200815, 20200930, 20201001, 20201002, 20201003, 20201009, 20201225]
 
 # INPUT: date in YYYYMMDD(num) format
 # OUTPUT: -1(error) / 0(non-trading day) / 1(trading day) 
@@ -10,7 +11,7 @@ def check_if_open(date):
     dt_format = datetime.datetime.strptime(str(date), "%Y%m%d")
     if dt_format.weekday() in [5,6]:
         return 0
-    elif dt_format in holidays_2019:
+    elif dt_format in holidays_2020:
         return 0
     else:
         return 1
