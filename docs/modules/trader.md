@@ -1,4 +1,4 @@
-# Module Documentation
+# Trader Module Documentation
 
 ### Writer: 신준수
 

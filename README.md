@@ -39,7 +39,7 @@ For people who prefer reading in english, please use the link below to see my co
 
 Creon API를 호출하는데 사용한 Python 코드는 이 Github에 공개되어 있습니다.
 
-[Module Documentation](docs/modules.md)
+[Module Documentation](docs/modules/trader.md)
 
 AWS에서 가상 컴퓨터를 세팅한 방법이 궁금하다면?
 
