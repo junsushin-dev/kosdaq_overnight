@@ -16,7 +16,7 @@
 
 Windows 작업스케쥴러에 장 마감 직전 시간을 실행 트리거로 설정 후 등록하여 사용
 
-![example_pic1](../resources/modules/buy_3pm.png)
+![example_pic1](../../resources/modules/buy_3pm.png)
 
 ## buy_close.py
 
@@ -78,13 +78,13 @@ Windows 작업스케쥴러에 장 마감 직전 시간을 실행 트리거로 �
 
 Windows 작업스케쥴러에 장 마감 직전 시간을 실행 트리거로 설정 후 등록하여 사용
 
-![example_pic2](../resources/modules/log_5pm.png)
+![example_pic2](../../resources/modules/log_5pm.png)
 
 ### 결과물
 
 Path에 지정된 CSV 파일에 일일 매매내역이 기록됩니다.
 
-![example_pic3](../resources/modules/logger.png)
+![example_pic3](../../resources/modules/logger.png)
 
 ## logger.py
 
@@ -165,7 +165,7 @@ Path에 지정된 CSV 파일에 일일 매매내역이 기록됩니다.
 
 Windows 작업스케쥴러에 장 개장 직전 시간을 실행 트리거로 설정 후 등록하여 사용
 
-![example_pic4](../resources/modules/sell_9am.png)
+![example_pic4](../../resources/modules/sell_9am.png)
 
 ## sell_open.py
 
