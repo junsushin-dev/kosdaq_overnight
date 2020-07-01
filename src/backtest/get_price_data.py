@@ -1,8 +1,8 @@
-# by Junsu Shin @ github.com/ashtapor25
+# by Junsu Shin @ github.com/junsushin-dev
 
 import pandas as pd
 import win32com.client
-import os 
+import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 asset_code = "A228790"
@@ -14,7 +14,7 @@ asset_name = instCpCodeMgr.CodeToName(asset_code)
 print(asset_name)
 
 def get_price_data_per_day(code, start_date, end_date):
-	
+
 	instStockChart.SetInputValue(0, code)
 	instStockChart.SetInputValue(1, ord('2'))
 	#instStockChart.SetInputValue(2, start_date)

@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import datetime
-from scipy.stats import kstest 
+from scipy.stats import kstest
 from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
@@ -18,7 +18,7 @@ def check_normal_dist(data):
 # show results for the overnight strategy
 # buys at previous day's close price and sells at today's open price
 # prints: cumulated returns, yearly returns
-# plots graph: portfolio value under strategy, compared to holding the asset 
+# plots graph: portfolio value under strategy, compared to holding the asset
 def backtest_overnight(file_path, kelly='off', daily_interest=(0.05/252), start_date=False, end_date=False):
 
 	# process date to datetime object and sort the dataframe by index
@@ -29,7 +29,7 @@ def backtest_overnight(file_path, kelly='off', daily_interest=(0.05/252), start_
 
 	# dataframe slicing for start / end dates
 	if start_date == False:
-		if end_date == False: 
+		if end_date == False:
 			pass
 		else:
 			df = df[:end_date]
@@ -50,13 +50,13 @@ def backtest_overnight(file_path, kelly='off', daily_interest=(0.05/252), start_
 	# if kelly == 'on'
 	# calculate optimal kelly criterion
 
-	else: 
+	else:
 		plt.hist(df['log_returns'])
 		plt.show()
 		print(check_normal_dist(df['log_returns']))
 
-		#kelly_criterion = (df['returns'].mean() - daily_interest) / ( df['returns'].std() ** 2)
-		kelly_criterion = 1.7094
+		kelly_criterion = (df['returns'].mean() - daily_interest) / ( df['returns'].std() ** 2)
+		# kelly_criterion = 1.7094
 		print('optimal leverage: {}'.format(kelly_criterion))
 
 	# make cumulative data for plotting graph
